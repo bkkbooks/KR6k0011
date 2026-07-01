@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6k0011/v1
+canonical_location: https://kanripo.org/bkk/KR6k0011/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 四分僧戒本
+  identifiers:
+    alt_id:
+    - T22n1430
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T22/T22n1430.xml
+    old_id: T22n1430
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0011_000.yaml, hash: 'sha256:5e2f6b67e0d3e90e14be21884c097748a7c02f922ac31e39a436f02e326f1d44'}
+  - {seq: 1, filename: KR6k0011_001.yaml, hash: 'sha256:185c111cb4b0de88b33162ac5103c30af31e18578ff6b46b9ab84bcaa0b5fdb0'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6k0011_001.markers.yaml, hash: 'sha256:86557acc4d2d4000174ebf18a661a1f9712b719956d4e26284e032f3917b59ae'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0011_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8836
+  label: 四分僧戒本曇無德出
+  type: juan
+  level: 1
+hash: sha256:df38e4eb1bf034a7393f9f142c2cbb8ae3eebc1b83184dcb9d0281d00a79e57d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

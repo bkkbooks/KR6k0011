@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6k0011/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 四分僧戒本
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T22/T22n1430.xml
+    old_id: T22n1430
+hash: sha256:5e2f6b67e0d3e90e14be21884c097748a7c02f922ac31e39a436f02e326f1d44
