@@ -37,9 +37,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0011_000.yaml, hash: 'sha256:5e2f6b67e0d3e90e14be21884c097748a7c02f922ac31e39a436f02e326f1d44'}
-  - {seq: 1, filename: KR6k0011_001.yaml, hash: 'sha256:185c111cb4b0de88b33162ac5103c30af31e18578ff6b46b9ab84bcaa0b5fdb0'}
+  - {seq: 1, filename: KR6k0011_001.yaml, hash: 'sha256:97f51bc2b00863536f8785a2d48c92ad2778eab6e683aed1e05432cb45273d9f'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0011_001.markers.yaml, hash: 'sha256:86557acc4d2d4000174ebf18a661a1f9712b719956d4e26284e032f3917b59ae'}
+  - {seq: 0, role: markers, filename: assets/KR6k0011_000.markers.yaml, hash: 'sha256:ed1369f001b7c58c2bf0a6a1e1290f1d446e666952a5a46dd16e5fbf4b2969ac'}
+  - {seq: 1, role: markers, filename: assets/KR6k0011_001.markers.yaml, hash: 'sha256:16d0ec3de1ad0d1c33406ffc7a2642ee03131863ef27f75314104b3f93994b10'}
 table_of_contents:
 - ref:
     seq: 1
@@ -51,7 +52,4 @@ table_of_contents:
   label: 四分僧戒本曇無德出
   type: juan
   level: 1
-hash: sha256:df38e4eb1bf034a7393f9f142c2cbb8ae3eebc1b83184dcb9d0281d00a79e57d
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:265ed28c9438c24cdf81426e1d8524fc5f11aa80e56c021e187dcf007f007beb
